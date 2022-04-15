@@ -50,7 +50,7 @@ impl<'r> PgValueRef<'r> {
         }
     }
 
-    pub(crate) fn format(&self) -> PgValueFormat {
+    pub fn format(&self) -> PgValueFormat {
         self.format
     }
 
